@@ -20,20 +20,23 @@ This contrast is important, as it suggests that food deserts, or areas that are 
 
 From the map, we can infer that a significant percentage of low-access census tracts are also low-income. Large sections of the South and Midwest show ratios close to 1.0, meaning almost all low access residents in these areas are also low-income. While some regions, like the West, show low-income and low-access occurring independently, the overarching pattern suggests a strong overlap between the two variables.
 
-image
+<img width="1438" height="757" alt="image" src="https://github.com/user-attachments/assets/861b3cf8-6350-4047-a0b9-24419e5073ef" />
+
 The tree map further depicts the ideas touched on in graph 1, as it demonstrates the ratios of low income areas to low access areas by state. Most of the states with a low ratio are in the aforementioned regions of the northeastern or western United States, further demonstrating the earlier point of being low income and having low access aren’t 100% correlated. However, this graph points out one notable exception: Iowa. There may be some unique conditions specific to Iowa that causes this, which may be something to explore further. We can conclude that while the ratio of low-income to low-access areas varies by state, the majority of states display moderate to high overlap (light to dark blue). This indicates that a significant portion of low-access areas across the country are also low-income. Only a small number of states show low overlap, suggesting that nationally, poverty is a major contributing factor to food access issues.
 
 # Question 2: Among the variables in the dataset, which factors have the strongest correlation with low-income and low-access areas?
 This question examines how different factors relate to the likelihood that a census tract is both low-income and low-access. This question helps us understand why certain communities are more likely to experience both low income and limited food access. Understanding these relationships can highlight the factors contributing to food deserts. This makes the question important for reasons like identifying vulnerable communities, knowing where to build food resources, showing the disproportionate impact on marginalized groups, etc.
 
-image
+<img width="743" height="747" alt="image" src="https://github.com/user-attachments/assets/9f6e2f88-d992-417b-a231-8c1007ff9a19" />
+
 Our polynomial regression analysis of SNAP-participating households in low-access areas shows a remarkably strong relationship with the number of low-income/low-access tracts at the county level. With an R-squared value of 0.9088 and a p-value below 0.0001, the model explains over 90% of the variation in LILA tracts, indicating that SNAP housing is one of the most powerful predictors in our dataset. The nonlinear trend demonstrates that as SNAP housing increases, LILA tracts grow at an accelerating rate, suggesting that structural poverty compounds food access challenges. Counties with high SNAP participation tend to experience disproportionately more food-desert conditions, reinforcing the conclusion that economic need is a primary driver of low-income, low-access classifications.
 
-image
-Data manipulation
-When conducting the analysis required for our second question, we realized that the sheer amount of null values present in the data skewed mathematical averages, as any visualization that calculates averages would likely ignore these NULL values. We felt that this didn’t make sense, because in this dataset, NULL values indicated a lack of presence of a particular group in a given census tract, so we felt that this NULL value could be replaced with 0. An example that illustrates this lies in census tract 01001020200 in Autauga County, Alabama. This tract had NULL values for the “lapop10” variable, indicating that there are 0 individuals in the tract that are considered low access at 10 miles. Therefore, when calculating average low income/low access percentage by state, having this as a null value instead of a 0 could overrepresent this average, for example.
+<img width="1037" height="750" alt="image" src="https://github.com/user-attachments/assets/c8202078-21a4-4226-9212-838a75869057" />
 
-Other than this change, we didn’t modify, remove, or add to our data in any way, even by way of reformatting or standardization. In addition, to the best of our knowledge, this data doesn’t have any redundant, inaccurate, or low-quality data as well. Due to the scale and highly specific nature of the dataset, it is next to impossible for us to validate the accuracy of the data. However, due to the reputable source that compiled this dataset, we can assume that the data is largely accurate.
+By normalizing SNAP-participating households in low-access areas by total housing units, we removed the bias caused by differences in county population. Even after this adjustment, the relationship between SNAP participation and LILA tracts remained extremely strong, with an R-squared of 0.9086 and a p-value under 0.0001. Number of housing units has little effect on number of LILA tracts within a county. This demonstrates that the correlation between number of SNAP households and number of LILA tracts in a county is not skewed by overall population.
+
+# Data manipulation
+We didn’t modify, remove from, or add to our dataset in any way, even by way of reformatting or standardization. It is also worth noting that, to the best of our knowledge, this data doesn’t have any redundant, inaccurate, or low-quality data as well. Due to the scale and highly specific nature of the dataset, it is next to impossible for us to validate the accuracy of the data. However, due to the reputable source that compiled this dataset, we can assume that the data is largely accurate.
 
 # Tableau Packaged Workbook
-Save or Export your project as a Tableau packaged workbook file and provide it as part of the github repository
+
