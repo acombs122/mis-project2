@@ -16,7 +16,7 @@ These visualizations depict an interesting association between low income and lo
 
 This contrast is important, as it suggests that food deserts, or areas that are both low access and low income, occur for different reasons in different areas of the country. Therefore, blanket federal legislation may be unable to address this issue, and may require regional-based solutions and additional analysis/investigation to solve the issue.
 
-image
+[image](https://private-user-images.githubusercontent.com/235771316/514956661-5a65f02d-86d4-4109-b3c1-884f12c2cae6.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NjMzNDc5NzIsIm5iZiI6MTc2MzM0NzY3MiwicGF0aCI6Ii8yMzU3NzEzMTYvNTE0OTU2NjYxLTVhNjVmMDJkLTg2ZDQtNDEwOS1iM2MxLTg4NGYxMmMyY2FlNi5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUxMTE3JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MTExN1QwMjQ3NTJaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT0wMGU1YzAwNDExY2VmNmE1NmNjZTliMjU0ZGEwNTk4ZWM4ODA1YTI5ZjEzZTUxMWJjOWRiZmVhZTNjMWViNTYzJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.pwy5vtn4zaEhttfDFbxt4_ffuANigmfe-GeaksRP8yM)
 From the map, we can infer that a significant percentage of low-access census tracts are also low-income. Large sections of the South and Midwest show ratios close to 1.0, meaning almost all low access residents in these areas are also low-income. While some regions, like the West, show low-income and low-access occurring independently, the overarching pattern suggests a strong overlap between the two variables.
 
 image
